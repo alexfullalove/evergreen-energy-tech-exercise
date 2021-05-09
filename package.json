@@ -4,7 +4,7 @@
   "description": "The idea of the exercise is to solve the following problem, we don't expect it to take longer than two hours and all the data/tools should be available. Things we're looking for are:",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/alexfullalove/evergreen-energy-tech-exercise#readme",
   "devDependencies": {
-    "jest": "^26.6.3"
+    "@types/jest": "^26.0.23",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.6",
+    "typescript": "^4.2.4"
   }
 }
