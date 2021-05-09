@@ -2,8 +2,11 @@
   "compilerOptions": {
     "target": "es5",
     "module": "commonjs",
+    "esModuleInterop": true,
     "strict": true,
-    "outDir": "./dist",
-    "sourceMap": true
-  }
+    "outDir": "dist",
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true
+  },
 }
